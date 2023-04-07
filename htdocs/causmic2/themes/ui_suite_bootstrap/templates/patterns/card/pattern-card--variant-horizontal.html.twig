@@ -1,0 +1,20 @@
+<div{{ attributes.addClass('card') }}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      {{ image }}
+    </div>
+    <div class="col-md-8">
+      {% if header %}
+      <div class="card-header">
+        {{ header }}
+      </div>
+      {% endif %}
+      {{ content }}
+      {% if footer %}
+      <div class="card-footer">
+        {{ footer }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

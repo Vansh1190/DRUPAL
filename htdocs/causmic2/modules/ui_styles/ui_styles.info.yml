@@ -1,0 +1,10 @@
+name: 'UI Styles'
+type: module
+description: 'Define styles from modules and themes.'
+core_version_requirement: ^9 || ^10
+package: 'User interface'
+
+# Information added by Drupal.org packaging script on 2023-02-28
+version: '8.x-1.5'
+project: 'ui_styles'
+datestamp: 1677590612

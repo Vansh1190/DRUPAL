@@ -1,0 +1,10 @@
+name: 'Animate CSS'
+description: 'Animate CSS is a bunch of cool, fun, and cross-browser animations for you to use in your projects.'
+core_version_requirement: ^9 || ^10
+type: module
+package: 'User interface'
+
+# Information added by Drupal.org packaging script on 2023-03-19
+version: '2.1.0'
+project: 'animate_css'
+datestamp: 1679236748
