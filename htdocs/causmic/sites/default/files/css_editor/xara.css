@@ -1,0 +1,380 @@
+#block-list .block-content{
+  margin-top:5px;
+  border:2px solid black;
+  border-radius:15px;
+  padding:15px;
+}
+.node-submitted-details{
+ display:none; 
+}
+.close-mobile-menu{
+ scale: 1.2;
+    margin: 45px 14px;
+    border-radius: 7px;
+    color: #97c2b8; 
+}
+.mobile-menu{
+     border-top: 3px solid #97c2b8;
+    border-bottom: 3px solid #97c2b8;
+    border-radius: 4px 9px;
+}
+
+.block-content p{
+  font-size:xx-large;
+  font-weight:700;
+}
+.node-title{
+  display:none;
+}
+
+.feed-icon{
+  display:none;
+}
+.field--type-text-with-summary ul{
+      padding: 0px 0px 0px 4%;
+}
+.allCards{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+}
+.card{
+  width:33%;
+  place-content: baseline;
+
+  height:250px;
+  max-height:fit-content;
+}
+.card img{
+	height:100%;
+    max-height:fit-content;
+  object-fit:cover;
+  width:100%;
+}  
+
+
+ .card{
+    margin-left: 5px;
+    /* border: 2px solid black; */
+    border: none;
+    width: 30%;
+    padding: 9px 9px;
+    display: block;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    background:#fff ;
+   flex-flow:column
+}
+
+.card:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.card img{
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+}
+.card h2{
+    z-index: 2;
+    /* background-color:black ; */
+    width: 100%;
+    color: rgb(30, 30, 30);
+    margin: 0;
+    font-weight: 700;
+    padding: 0;
+    margin-left: 10 px;
+}
+
+.PastEvent button{
+    --color: rgb(176, 92, 255);
+    padding: 0px 15px;
+    line-height: 2.5em;
+    margin: 20px;
+    /* position: relative; */
+    overflow:visible !important ;
+    background-color: transparent;
+    /* border: 3px solid var(--color); */
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    font-weight: 700;
+    transform: scale(1.2);
+    color: white;
+    background-color: #ed6d4c;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.PastEvent :hover {
+    box-shadow:inset 2px 2px 12px #292241;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #292241;
+    transform: scale(1.09);
+    transition-duration: 0.5s;
+    background-color: #292241;
+}
+
+#block-xara-branding div{
+  border:none;
+}
+
+.site-footer::before{
+      background-color: #201d28;
+  
+}
+.menu-wrap{
+    background-color: #201d28;
+}
+
+
+
+#block-quicklinks .block-content h1{
+  color: #97c2b8;
+}
+#block-quicklinks .block-content h4 a{
+  color: #fff;
+}
+
+#block-about .block-content h1{
+  color: #97c2b8;
+}
+#block-about .block-content h4 a{
+  color: #fff;
+}
+
+.social-icons li{
+ border:none;
+  
+}
+.social-icons{
+  gap:25px;
+}
+.social-icons li a{
+  scale: 250%;
+  border:none;
+}
+.social-icons li a:hover {
+    background-color:transparent;
+    padding: 0;
+    scale: 200%;
+}
+
+
+
+
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 40%;
+  margin: 0 10px 20px;
+}
+
+.member-image {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.member-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.member-info {
+  padding: 20px;
+}
+
+.member-name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.member-about {
+  margin-top: 10px;
+  font-size: smaller !important;
+  color: #666;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #3b5998;
+}
+
+.social-links a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: #f1f1f1;
+  color: #666;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover i {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.allMembers{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  margin: 0 10px 20px;
+}
+.team-member-card :hover {
+    transition-duration: 0.4s;
+    transform: scale(0.96);
+}
+.member-image {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.member-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.member-info {
+  padding: 20px;
+}
+
+.member-name {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.member-about {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+.TeamCards {
+
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    /* margin-right:0%; */
+    background-color: transparent;
+    
+}
+.TeamCards ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+.TeamCards ul li{
+    list-style: none;
+}
+.TeamCards ul li img{
+    list-style: none;
+    width: 65px;
+    filter: invert(0);
+    scale: 0.6 !important;
+}
+
+.TeamCards ul li img:hover{
+    scale: 0.50 !important;
+    transition-duration:0.4s
+}
+
+
+
+
+
+
+
+@media (width < 500px){
+  .block-content p {
+    font-size: large;
+    font-weight: 700;
+}
+  
+  .card{
+   width:95%;
+    
+  }
+  .allCards{
+    flex-flow:column;
+  }
+  .member-name {
+    margin: -11px;
+    font-size: medium;
+    font-weight: 600;
+}
+  .member-about {
+    font-size: 8px !important;
+    font-weight: 700 !important;
+    margin: 8px -4px !important;
+}
+  
+.menu-wrap ul.menu {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: center; 
+}
+  
+.menu-wrap ul.menu .menu-item a{
+   border:none; 
+      font-size: x-large;
+  }
+  	
+  #mainH3{
+    left: 0; 
+  }
+  
+  .slider-text{
+   height: 15px;
+    max-height: 0; 
+  }
+}
+
+

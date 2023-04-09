@@ -1,0 +1,44 @@
+<?php
+/**
+ * @file
+ * Template file for displaying college society team members hierarchy.
+ */
+?>
+
+<div class="team-members">
+  <?php
+  // Get all the roles.
+  $roles = taxonomy_get_tree(3);
+
+  // Loop through each role.
+  foreach ($roles as $role) {
+    // Get all the users for this role.
+    $users = array();
+    $query = new EntityFieldQuery();
+    $query->entityCondition('entity_type', 'user')
+      ->fieldCondition('field_user_role', 'tid', $role->tid)
+      ->execute();
+    if (isset($query->result)) {
+      $users = entity_load('user', array_keys($query->result['user']));
+    }
+
+    // Display the role and the users for this role.
+    if (!empty($users)) {
+      ?>
+      <div class="team-role">
+        <h3><?php print $role->name; ?></h3>
+        <ul>
+          <?php
+          foreach ($users as $user) {
+            ?>
+            <li><?php print $user->name; ?></li>
+            <?php
+          }
+          ?>
+        </ul>
+      </div>
+      <?php
+    }
+  }
+  ?>
+</div>
